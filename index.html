@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+
+</head>
+
+<body>
+    <section id="loading">
+        <i class="fas fa-spinner fa-3x fa-spin"></i>
+    </section>
+
+
+    <div id="nav" class="position-fixed h-100 top-0">
+        <div class=" box bg-black text-white d-flex h-100  ">
+            <div class="d-flex any-class flex-column justify-content-between px-5">
+                <div class="any-class2">
+                    <ul class="list-unstyled overflow-hidden">
+                        <li onclick="searchInput(); close()" class="menu1 my-3 position-relative">Search</li>
+                        <li onclick="getCategories(); close()" class="menu2 my-3 position-relative">Categories</li>
+                        <li onclick="gatArea(); close()" class="menu3 my-3 position-relative">Area</li>
+                        <li onclick="getIngredients(); close()" class="menu4 my-3 position-relative">Ingredients</li>
+                        <li onclick="showContact(); close()" class="menu5 my-3 position-relative">Contac Us</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="cap">
+                    <div class="social p-3 ">
+                        <a><i class="fa-brands fa-facebook-f"></i></a>
+                        <a><i class="fa-brands fa-twitter"></i></a>
+                        <a><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <p>Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+            </div>
+
+            <div class="icons p-3 text-center d-flex flex-column justify-content-between bg-light">
+                <img src="images/logo.png" class="d-block" width="50" alt="">
+                <i id="toggleBtn" class="fa-solid  fa-bars text-dark closs "></i>
+                <div>
+                    <i class="fa-solid fa-share-nodes text-dark "></i>
+                    <i class="fa-solid fa-globe text-dark"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container w-75" id="searchContainer">
+        
+    </div>
+
+
+    <div class="container w-75">
+        <div class="row py-5 g-4 " id="rowData">
+            
+        </div>
+    </div>
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

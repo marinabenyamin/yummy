@@ -1,0 +1,41 @@
+body
+{
+    background-color: black;
+    color: white !important;
+    overflow: hidden;
+}
+#loading
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+#nav
+{
+    z-index: 99999;
+}
+i
+{
+    cursor: pointer;
+}
+.meal-layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transform: .5s;
+}
+.meal:hover .meal-layer
+{
+    top: 0;
+}
